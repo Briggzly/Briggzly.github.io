@@ -67,6 +67,10 @@
   transition: all 0.3s ease;
 }
 
+.navbar_links:hover {
+    color: blueviolet;
+}
+
 .main {
     background: black;
     padding: 3rem 0;
@@ -100,6 +104,8 @@
 }
 
 .my_projects_btn a {
+    position: relative;
+    z-index: 2;
     text-decoration: none;
     color: white;
 }
@@ -107,4 +113,73 @@
 .main_img_container img{
     border-radius: 7px;
     margin-left: 400px;
+}
+
+.my_projects_btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: blueviolet;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.my_projects_btn:hover {
+    color: white;
+}
+
+.my_projects_btn:hover:after {
+    width: 100%;
+}
+
+.skills {
+    padding: 3rem 0;
+    background: #131313;
+}
+
+.skills_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+.skills_logos {
+    color: white;
+}
+
+.skill-logo {
+    max-width: 75px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#skills_logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills_logo_container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#react_logo_container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
