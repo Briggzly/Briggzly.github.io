@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>Kyson Briggs</h1>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">Kyson Briggs</a>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links" id="about-page">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#skills" class="navbar_links" id="skills-page">Skills</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#projects" class="navbar_links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#contact" class="navbar_links" id="contact-page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main" id="about">
+        <div class="main_container">
+            <div class="main_img_container">
+                <img src="./IMG_2102.JPG" width="350" height="500">
+            </div>
+            <div class="main_content">
+                <h1>Hey, I'm Kyson.</h1>
+                <p>I am a full-stack developer in Lehi,UT with a love for coding.</p>
+                <p>In 2021, I attended a coding bootcamp named Dev Mountain, </p>
+                <p>where I learned full React.js stack for web development.</p> 
+                <p>The skills I learned include React,Node,Express,PostgreSQL.</p>
+                <button class="my_projects_btn"><a href="#projects">My Projects</a></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
