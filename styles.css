@@ -5,6 +5,25 @@
   scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: none;
+}
+
+#about {
+    visibility: hidden;
+    position: relative;
+    top: -80px;
+}
+
+#skills {
+    visibility: hidden;
+    position: relative;
+    top: -80px;
+}
+
+#projects {
+    visibility:hidden;
+    position: relative;
+    top: -80px;
 }
 
 .navbar {
@@ -138,6 +157,7 @@
 .skills {
     padding: 3rem 0;
     background: #131313;
+    height: 550px;
 }
 
 .skills_container {
@@ -182,4 +202,64 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.projects {
+    padding: 5rem 0;
+    background: black;
+}
+
+.projects-container h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-container {
+    color: white;
+}
+
+.projects-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #0575E6;
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    background: linear-gradient(to right, #021B79, #0575E6);
+}
+
+.project-card a {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.project-card a:hover {
+    color: lime;
+}
+
+.project-card h3 {
+    text-align: center;
+}
+
+.project-logo {
+    max-width: 75px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
 }
