@@ -26,6 +26,12 @@
     top: -80px;
 }
 
+#contact {
+    visibility: hidden;
+    position: relative;
+    top: -80px
+}
+
 .navbar {
   background: #131313;
   height: 80px;
@@ -262,4 +268,43 @@
     width: auto;
     height: auto;
     padding-top: 10px;
+}
+
+.contact {
+    padding: 4rem 0;
+    background: #131313;
+}
+
+.contact-container h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-logo-container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-logo {
+    max-height: 75px;
+    max-width: 75px;
+}
+
+.contact-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.contact-logo-container h3 {
+    margin-left: 10px;
 }
