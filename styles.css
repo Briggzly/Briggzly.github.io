@@ -8,30 +8,6 @@
   text-decoration: none;
 }
 
-#about {
-  visibility: hidden;
-  position: relative;
-  top: -80px;
-}
-
-#skills {
-  visibility: hidden;
-  position: relative;
-  top: -80px;
-}
-
-#projects {
-  visibility: hidden;
-  position: relative;
-  top: -80px;
-}
-
-#contact {
-  visibility: hidden;
-  position: relative;
-  top: -80px;
-}
-
 .navbar {
   background: #131313;
   height: 80px;
@@ -63,14 +39,7 @@
 }
 
 #navbar_logo {
-  background: #36d1dc;
-  background: -webkit-linear-gradient(to right, #5b86e5, #36d1dc);
-  background: linear-gradient(to right, #5b86e5, #36d1dc);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: #00eeff;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -109,6 +78,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: fixed;
   }
 
   #navbar_logo {
