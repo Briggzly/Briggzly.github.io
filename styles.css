@@ -233,23 +233,46 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .skills {
+    height: 475px;
+  }
+
+  .skills_container .skills_logo_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  #react_logo_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  #react-text {
+    margin-bottom: 15px;
+  }
+
+  #react_logo_container img {
+    margin-top: 15px;
+  } 
+
     
+    #skills_logos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
     .skills_logo_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .skills_container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .skills_logos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
 
     .skill-logo {
@@ -319,6 +342,12 @@
   padding-top: 10px;
 }
 
+@media screen and (max-width: 480px) {
+     .project-card {
+       height: 250px;
+     }
+}
+
 .contact {
   padding: 4rem 0;
   background: #131313;
@@ -356,4 +385,25 @@
 
 .contact-logo-container h3 {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    height: 600px;
+  }
+
+  .contact-logo {
+    max-height: 50px;
+    max-width: 50px;
+  }
+
+  .contact-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
 }
