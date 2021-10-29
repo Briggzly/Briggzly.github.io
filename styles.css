@@ -68,6 +68,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  * {
+    scroll-behavior: smooth;
+  }
+
   .navbar {
     height: 100px;
     width: 100%;
